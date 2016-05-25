@@ -27,6 +27,7 @@ public class BestFive extends AppCompatActivity{
         // ActionBar
         toolbar = (Toolbar) findViewById(R.id.myActionBar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // RecyclerView
         rvPets = (RecyclerView) findViewById(R.id.rvPets);
